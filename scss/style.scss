@@ -1,0 +1,11 @@
+
+@import 'variables';
+@import 'mixins';
+@import 'card';
+
+body {
+  font-family: $font-stack;
+  background: $primary-bg;
+  height: 100vh;
+  @include flex-center;
+}
